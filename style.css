@@ -1,0 +1,272 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.whatsappbtn {
+    padding: 10px 18px;
+    border: 1px solid #27AE60;
+    font-size: 16px;
+    color: #27AE60;
+}
+
+.whatsappbtn i {
+    color: #27AE60;
+}
+
+.whatsappbtn:hover {
+    border: 1px solid #27AE60;
+}
+
+.call {
+    padding: 10px 18px;
+    color: white;
+    background: linear-gradient(to right, #0ACEFE, #2699FB);
+}
+
+/*Hero Section */
+.bannerContent h1 {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.bannerContent p {
+    font-size: 22px;
+}
+
+.bannerContent h1 span {
+    color: #2699FB;
+}
+
+.bannerContent ul {
+    list-style: none;
+}
+
+.bannerContent ul li {
+    padding: 10px;
+    font-size: 22px;
+}
+
+.bannerContent ul li i{
+    color: #2699FB;
+}
+
+.bannerContentBtn button{
+    width: 50%;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: none;
+}
+
+.bannerContentBtn button:first-child{
+    color: white;
+    background: linear-gradient(to right, #0ACEFE, #2699FB);
+}
+
+
+/* Form Section */
+.bannerForm{
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.bannerForm h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.bannerForm button{
+    width: 100%;
+    padding: 10px 0px;
+    background: linear-gradient(to right, #0ACEFE, #2699FB);
+    border: none;
+    color: white;
+}
+
+/* Testimonial Section */
+.counter-section h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #2699FB;
+}   
+
+/* Highlights-Section */
+.highlights-section{
+    background-color: #F7FAFF;
+}
+
+.highlights-section h2{
+    columns: #0A2134;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.highlights-section p{
+    font-size: 16px;
+}
+
+.highlightsItems img{
+    width:70px;
+}
+
+.highlightsItems h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Curriculum Section */
+.tabItemsContent ul{
+    list-style: none;
+}
+
+.tabItemsContent ul li i{
+    color: #2699FB;
+}
+
+.tabMySytem .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #F2F4F7;
+    color: black;
+    border-bottom: 2px solid #2699FB ;
+    border-radius: 0px;
+}
+
+/* Free Resources Section */
+.resources-graphics {
+    width: 100%;
+    aspect-ratio: 8/6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.center-icon-container {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.pulse-ring-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #e5edff;
+    border-radius: 50%;
+}
+
+.pulse-ring-2 {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    background: #c3d5ff;
+    border-radius: 50%;
+}
+
+.center-icon-bg {
+    position: relative;
+    width: 45%;
+    height: 45%;
+    background-color: #1C4ED8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-icon-bg i {
+    color: white;
+    font-size: 32px;
+}
+
+.fpill {
+    background-color: white;
+    border: 2px solid #111827;
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-weight: 500;
+    color: #111827;
+    box-shadow: 3px 3px 0px rgba(17, 24, 39, 1);
+    z-index: 2;
+    white-space: nowrap;
+    font-size: 15px;
+}
+
+.fpill-desktop {
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+/* Pills Positioning */
+.fpill-1 { left: 67.5%; top: 8.33%; }
+.fpill-2 { left: 77.5%; top: 20%; }
+.fpill-3 { left: 71.25%; top: 31.66%; }
+.fpill-4 { left: 67.5%; top: 43.33%; }
+.fpill-5 { left: 76.25%; top: 55%; }
+.fpill-6 { left: 73.75%; top: 66.66%; }
+.fpill-7 { left: 63.75%; top: 78.33%; }
+
+.connecting-lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.path-line {
+    fill: none;
+    stroke: #cbd5e1;
+    stroke-width: 2.5;
+}
+
+/* Footer Styles */
+.custom-footer {
+    background-color: #021136 !important;
+}
+
+.custom-footer a {
+    color: #cbd5e1;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.custom-footer a:hover {
+    color: white;
+}
+
+.footer-links ul li {
+    margin-bottom: 12px;
+}
+
+.social-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #cbd5e1;
+    border-radius: 50%;
+    color: #cbd5e1;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    background-color: white;
+    color: #01081f;
+}
+
+.footer-bottom-links a {
+    font-size: 13px;
+    line-height: 2;
+}
+
+.footer-bottom-links .text-secondary {
+    margin: 0 5px;
+}
+
