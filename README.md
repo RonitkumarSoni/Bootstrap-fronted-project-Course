@@ -23,3 +23,6 @@ This is a fully responsive frontend clone of the WsCube Tech website. It is buil
 
 ## Additional Resources
 For a detailed breakdown of Bootstrap concepts, topics, interview questions, and practical coding exercises related to this project, please refer to the `study_material.md` file.
+
+## Contributing
+We welcome contributions! If you have any additional Bootstrap interview questions, practical coding exercises, or want to improve the study materials, feel free to fork the repository and submit a pull request. You can directly contribute to the `study_material.md` file. Let's build a great resource together!
